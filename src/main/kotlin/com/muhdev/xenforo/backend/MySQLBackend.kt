@@ -56,10 +56,8 @@ class MySQLBackend(private var host : String,
                     "jdbc:mysql://" + host + ":" + port + "/" + dbname
                             + "?verifyServerCertificate=false&useSSL=false&allowPublicKeyRetrieval=true&useUnicode=yes&characterEncoding=UTF-8", user, password)
                 if (bol) {
-                    println("Connected to MySQL!")
                     return
                 }
-                println("Reconnected on MySQL!")
             } catch (e: SQLException) {
                 println("Cannot open MySQL connection: $e")
             }
