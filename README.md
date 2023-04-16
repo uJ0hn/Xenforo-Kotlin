@@ -8,15 +8,15 @@ Ele ao invés de usar a conexão API própria do XenForo, ele se conecta ao MySQ
 Colocar como dependência
 ```xml
 <repositories>  
-	<repository>  
-		<id>jitpack.io</id>  
-		<url>https://jitpack.io</url>  
-	</repository>  
+   <repository>  
+     <id>jitpack.io</id>  
+     <url>https://jitpack.io</url>  
+   </repository>  
 </repositories>
 <dependency>
-	<groupId>com.github.uJ0hn</groupId>
-	<artifactId>Xenforo-Kotlin</artifactId>
-	<version>RELEASE</version>
+   <groupId>com.github.uJ0hn</groupId>
+   <artifactId>Xenforo-Kotlin</artifactId>
+   <version>RELEASE</version>
 </dependency>
 ```
 
